@@ -1,4 +1,71 @@
+.container {
+  font-family: 'Roboto', sans-serif;
+}
+
+.language-switcher {
+  position: absolute;
+  left: 45%;
+}
+.button-switcher {
+  background-color: #fbf999;
+  color: #34343a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 10px;
+}
+.button-switcher:hover {
+  background-color: #34343a;
+  color: #fbf999;
+}
+
+.btn {
+  background-color: #fbf999;
+  color: #34343a;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #34343a;
+  color: #fbf999;
+  padding: 20px 50px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 10px #34343a;
+}
+
+.text-section p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.main-image {
+  background-color: #34343a;
+  border-radius: none;
+}
+
+.cta-button {
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
 .footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   background-color: #fbf999;
   color: #34343a;
   text-align: center;
@@ -18,4 +85,11 @@
   width: 30px;
   margin: 0 10px;
   filter: invert(1);
+}
+
+@media screen and (max-width: 1300px) {
+  .content {
+    width: 70%;
+    height: 60%;
+  }
 }

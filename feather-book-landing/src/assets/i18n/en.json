@@ -1,0 +1,13 @@
+{
+  "header": {
+    "login": "Log in",
+    "register": "Register"
+  },
+  "main": {
+    "content": "Explore the future of reading with FeatherBook. Join our community of literary enthusiasts and enjoy a unique experience with e-books and exclusive content. Connect with authors, participate in unique events, and access personalized tools that will enrich your love for books. Reading reimagined for you!",
+    "goToPage": "GO TO PAGE"
+  },
+  "footer": {
+    "contact": "Contact us"
+  }
+}
